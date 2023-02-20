@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:checked+div {
+  @apply border-red-400 bg-red-400;
+}
+
+input:checked+div svg {
+  @apply block;
+}
+
+div::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+@layer utilities {
+  .rounded-8 {
+    border-radius: 8px;
+  }
+
+  .shadow-c-1 {
+    box-shadow: 4px 8px 24px rgba(0, 0, 0, 0.03);
+  }
+
+  .btn-shadow {
+    box-shadow: 4px 8px 24px rgba(198, 0, 0, 0.25) !important;
+  }
+
+  .d-cat-shadow {
+    box-shadow: -2px 4px 28px rgba(163, 163, 163, 0.05) !important;
+  }
+}

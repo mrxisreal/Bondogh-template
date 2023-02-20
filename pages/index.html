@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../dist/css/output.css" rel="stylesheet">
+        <link rel="stylesheet" href="../src/css/styles.css">
+
+        <title>Home</title>
+    </head>
+
+    <body>
+        <!-- main container -->
+        <div
+            class="h-screen flex
+            flex-col bg-white
+            relative mx-auto">
+
+            <!-- header menu -->
+            <div class="flex flex-row items-center justify-between px-16 py-3
+                bg-[#FAFAFA] border-b-2 border-gray-1">
+                <div class="flex flex-row items-center gap-4">
+                    <div class="border-l-2 border-[#EFEFEF] pl-6">
+                        <img src="../src/images/icons/logo-header.svg" />
+                    </div>
+                    <div class="border-2 flex flex-row w-auto bg-white px-4
+                        rounded-8 cursor-pointer
+                        hover:border-2 hover:border-[#C60000]
+                        hover:bg-[#c600000a] gap-4 justify-center">
+                        <img src="../src/images/icons/map-marker-red.svg" />
+                        <p class="font-semibold text-md text-[#C60000] h-[51px]
+                            items-center flex relative right-[-10px]">شیراز</p>
+                        <img src="../src/images/icons/chevron-down-Filled.svg"
+                            />
+                    </div>
+                    <div class="border-2 flex flex-row w-auto bg-white px-4
+                        rounded-8
+                        hover:border-2 hover:border-[#C60000]
+                        hover:bg-[#c600000a]">
+                        <img src="../src/images/icons/search.svg" />
+                        <input
+                            placeholder="جستجو"
+                            type="search"ّ
+                            class="outline-none
+                            outline-transparent h-12
+                            mt-1 px-3
+                            bg-transparent
+                            py-2
+                            placeholder-[#BDBDBD] place block w-[20rem]
+                            rounded-md sm:text-sm font-bold"
+                            />
+                        <button>
+                            <img src="../src/images/icons/tree-dot.svg" />
+                        </button>
+                    </div>
+                </div>
+                <div class="flex flex-row justify-start items-center gap-10">
+                    <div class="flex flex-row gap-3 justify-center
+                        items-center cursor-pointer">
+                        <img src="../src/images/icons/user-Regular-header.svg"
+                            />
+                        <p class="font-semibold text-[14px]">پروفایل من</p>
+                    </div>
+
+                    <div class="flex flex-row gap-3 justify-center
+                        items-center cursor-pointer">
+                        <img src="../src/images/icons/bookmark-header.svg"
+                            />
+                        <p class="font-semibold text-[14px]">ذخیره شده ها</p>
+                    </div>
+
+                    <button>
+                        <button class="bg-[#C60000] font-bold text-white
+                            py-[15px] px-6 text-md justify-center flex
+                            rounded-8">ثبت آگهی</button>
+                    </button>
+                </div>
+            </div>
+
+            <!-- categories section -->
+            <div class="mx-16 my-10 rounded-8 flex flex-row items-center
+                gap-10 px-16 py-6 justify-center
+                bg-[#FAFAFA] border-2 border-gray-1">
+                <div class="inline-block relative d-cat-shadow">
+                    <div class="bg-white border-2 w-[90px] h-[80px] flex
+                        cursor-pointer
+                        flex-col
+                        justify-start
+                        items-center py-4 rounded-8">
+                        <img class="relative top-[-3px] h-[60px]"
+                            src="../src/images/icons/categories/Video game.svg"
+                            />
+                        <p class="relative top-[6px] text-[10px]">سرگرمی</p>
+                    </div>
+                </div>
+                <div class="inline-block relative d-cat-shadow">
+                    <div class="bg-white border-2 w-[90px] h-[80px] flex
+                        cursor-pointer
+                        flex-col
+                        justify-start
+                        items-center py-4 rounded-8">
+                        <img class="relative top-[-3px] h-[60px]"
+                            src="../src/images/icons/categories/Production.svg"
+                            />
+                        <p class="relative top-[6px] text-[10px]">صنعتی و شرکتی</p>
+                    </div>
+                </div>
+                <div class="inline-block relative d-cat-shadow">
+                    <div class="bg-white border-2 w-[90px] h-[80px] flex
+                        cursor-pointer
+                        flex-col
+                        justify-start
+                        items-center py-4 rounded-8">
+                        <img class="relative top-[-3px] h-[60px]"
+                            src="../src/images/icons/categories/Animal care.svg"
+                            />
+                        <p class="relative top-[6px] text-[10px]">حیوانات</p>
+                    </div>
+                </div>
+                <div class="inline-block relative d-cat-shadow">
+                    <div class="bg-white border-2 w-[90px] h-[80px] flex
+                        cursor-pointer
+                        flex-col
+                        justify-start
+                        items-center py-4 rounded-8">
+                        <img class="relative top-[-3px] h-[60px]"
+                            src="../src/images/icons/categories/Cosmetics.svg"
+                            />
+                        <p class="relative top-[6px] text-[10px]">پزشکی زیبایی</p>
+                    </div>
+                </div>
+                <div class="inline-block relative d-cat-shadow">
+                    <div class="bg-white border-2 w-[90px] h-[80px] flex
+                        cursor-pointer
+                        flex-col
+                        justify-start
+                        items-center py-4 rounded-8">
+                        <img class="relative top-[-3px] h-[60px]"
+                            src="../src/images/icons/categories/Airplane-around-Earth.svg"
+                            />
+                        <p class="relative top-[6px] text-[10px]">تور</p>
+                    </div>
+                </div>
+                <div class="inline-block relative d-cat-shadow">
+                    <div class="bg-white border-2 w-[90px] h-[80px] flex
+                        cursor-pointer
+                        flex-col
+                        justify-start
+                        items-center py-4 rounded-8">
+                        <img class="relative top-[-3px] h-[60px]"
+                            src="../src/images/icons/categories/Human-resources.svg"
+                            />
+                        <p class="relative top-[6px] text-[10px]">استخدام و
+                            کاریابی</p>
+                    </div>
+                </div>
+                <div class="inline-block relative d-cat-shadow">
+                    <div class="bg-white border-2 w-[90px] h-[80px] flex
+                        cursor-pointer
+                        flex-col
+                        justify-start
+                        items-center py-4 rounded-8">
+                        <img class="relative top-[-3px] h-[60px]"
+                            src="../src/images/icons/categories/Apartment.svg"
+                            />
+                        <p class="relative top-[6px] text-[10px]">املاک</p>
+                    </div>
+                </div>
+                <div class="inline-block relative d-cat-shadow">
+                    <div class="bg-white border-2 w-[90px] h-[80px] flex
+                        cursor-pointer
+                        flex-col
+                        justify-start
+                        items-center py-4 rounded-8">
+                        <img class="relative top-[-3px] h-[60px]"
+                            src="../src/images/icons/categories/Smartphone-Call.svg"
+                            />
+                        <p class="relative top-[6px] text-[10px]">موبایل و تبلت</p>
+                    </div>
+                </div>
+                <div class="inline-block relative d-cat-shadow">
+                    <div class="bg-white border-2 w-[90px] h-[80px] flex
+                        cursor-pointer
+                        flex-col
+                        justify-start
+                        items-center py-4 rounded-8">
+                        <img class="relative top-[-3px] h-[60px]"
+                            src="../src/images/icons/categories/Kitchen-desktop.svg"
+                            />
+                        <p class="relative top-[6px] text-[10px]">خانه و
+                            آشپزخانه</p>
+                    </div>
+                </div>
+                <div class="inline-block relative d-cat-shadow">
+                    <div class="bg-white border-2 w-[90px] h-[80px] flex
+                        cursor-pointer
+                        flex-col
+                        justify-start
+                        items-center py-4 rounded-8">
+                        <img class="relative top-[-3px] h-[60px]"
+                            src="../src/images/icons/categories/car.svg"
+                            />
+                        <p class="relative top-[6px] text-[10px]">وسائل نقلیه</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../../dist/css/output.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../src/css/styles.css">
+
+        <title>home</title>
+    </head>
+
+    <body class="bg-[#FAFAFA]">
+        <!-- main container -->
+        <div dir="rtl"
+            class="w-11/12 h-screen space-y-1 flex pt-5
+            flex-col
+            relative mx-auto md:w-5/12 lg:w-4-12 xl:w-3/12">
+
+            <!-- back btn -->
+            <div class="flex justify-between flex-row-reverse left-0 top-3
+                items-center pb-6">
+                <img src="../src/images/icons/Arrow-right-red-.svg" />
+                <img class="flex-col-reverse"
+                    src="../src/images/logo-top-bar.svg" />
+            </div>
+
+            <!-- search and filter -->
+            <div class="border-2 flex flex-row w-auto bg-white px-4 rounded-8
+                hover:border-2 hover:border-[#C60000] hover:bg-[#c600000a]">
+                <img src="../src/images/icons/search.svg" />
+                <input
+                    placeholder="جستجو"
+                    type="search"ّ
+                    class="outline-none
+                    outline-transparent h-12
+                    mt-1 px-3
+                    bg-transparent
+                    py-2
+                    placeholder-[#BDBDBD] place block w-full
+                    rounded-md sm:text-sm font-bold"
+                    />
+                <img src="../src/images/icons/tree-dot.svg" />
+            </div>
+
+            <!-- line -->
+            <hr class="relative top-4" />
+
+            <!-- old searches -->
+            <div class="relative top-8">
+                <p>جستجو های قبلی شما</p>
+            </div>
+            <div class="flex flex-col w-full top-14 relative gap-4">
+                <div class="flex flex-row justify-between border-b-2
+                    border-[#EEEEEE] pb-3">
+                    <p class="transition
+                        hover:scale-110 text-[#A9A9A9] font-semibold">کلاسیک</p>
+                    <img class="transition
+                        hover:scale-110"
+                        src="../src/images/icons/close-item-red.svg" />
+                </div>
+                <div class="flex flex-row justify-between border-b-2
+                    border-[#EEEEEE] pb-3">
+                    <p class="transition
+                        hover:scale-110 text-[#A9A9A9] font-semibold">ماشین</p>
+                    <img class="transition
+                        hover:scale-110"
+                        src="../src/images/icons/close-item-red.svg" />
+                </div>
+                <div class="flex flex-row justify-between border-b-2
+                    border-[#EEEEEE] pb-3">
+                    <p class="transition
+                        hover:scale-110 text-[#A9A9A9] font-semibold">هنزفری</p>
+                    <img class="transition
+                        hover:scale-110"
+                        src="../src/images/icons/close-item-red.svg" />
+                </div>
+                <div class="flex flex-row justify-between border-b-2
+                    border-[#EEEEEE] pb-3">
+                    <p class="transition
+                        hover:scale-110 text-[#A9A9A9] font-semibold">لپ تاپ
+                        گیمینگ</p>
+                    <img class="transition
+                        hover:scale-110"
+                        src="../src/images/icons/close-item-red.svg" />
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

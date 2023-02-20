@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../../dist/css/output.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../src/css/styles.css">
+        <title>Shared Modal</title>
+    </head>
+
+    <body>
+        <!-- Modal -->
+        <div
+            dir="rtl"
+            class="bg-black/70 w-full md:w-5/12 lg:w-4/12 xl:w-2/6 left-1/2
+            -translate-x-1/2 h-full fixed mx-auto top-0 bottom-0 z-50">
+            <div class="bg-white w-full absolute bottom-0 rounded-t-[20px] pt-2
+                px-5">
+                <hr class="w-9 h-1 mb-7 rounded-full bg-[#E0E0E0] mx-auto">
+                <!-- Title -->
+                <div class="flex flex-row justify-between items-center pb-4">
+                    <h3 class="text-right font-bold text-[18px]">گزارش آگهی</h3>
+                    <button>
+                        <img src="../../src/images/icons/close-modal.svg" />
+                    </button>
+                </div>
+                <p class="w-auto font-semibold text-sm pb-4">مشکل در کدام قسمت
+                    آگهی است؟ مشکل را با کارشناسان ما در میان بگذارید</p>
+                <textarea placeholder="متن نظر خود را وارد کنید" type="text"
+                    class="text-right h-32
+                    mt-1 px-[10px] py-[10px] mb-10
+                    bg-white border-2 border-[#EEF0F3]
+                    placeholder:text-slate-400 font-semibold focus:outline-none
+                    focus:border-[#C60000] block w-full
+                    rounded-md sm:text-sm focus:ring-1"></textarea>
+
+                <div class="flex flex-row justify-center items-center gap-3
+                    mb-5">
+                    <button class="bg-[#ffc5c5] w-3/6 font-bold text-[#C60000]
+                        py-[15px] px-16 text-lg justify-center flex
+                        rounded-8">انصراف</button>
+                    <button class="bg-[#C60000] w-3/6 font-bold text-white
+                        py-[15px] px-16 text-lg justify-center flex
+                        btn-shadow rounded-8">ثبت</button>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+</html>

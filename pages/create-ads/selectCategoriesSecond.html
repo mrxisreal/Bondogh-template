@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../../dist/css/output.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../src/css/styles.css">
+
+        <title>select categories</title>
+    </head>
+
+    <body class="bg-[#FAFAFA]">
+        <!-- main container -->
+        <div
+            class="h-screen space-y-1 flex pt-5
+            flex-col
+            relative mx-auto md:w-5/12 lg:w-4-12 xl:w-3/12">
+
+
+            <div class="flex flex-row-reverse items-center justify-between mb-20
+                px-5 fixed h-20 w-full right-0 z-10 bg-[#FAFAFA] md:bg-white
+                md:border-b-2 md:border-[#EDEDED] top-0">
+                <div class="flex flex-row-reverse items-center">
+                    <img src="../../src/images/icons/Arrow right -.svg" />
+                    <p class="pl-3 text-lg font-bold text-[18px]">ثبت آگهی</p>
+                </div>
+                <img src="../../src/images/icons/reload.svg" />
+            </div>
+
+            <div class="flex flex-col relative top-14 md:top-20 px-5">
+                <p class="text-[20px] font-bold">املاک</p>
+                <p class="text-[14px] text-[#222222] pt-1">زیر دسته مورد نظر را انتخاب کنید</p>
+            </div>
+
+            <!-- search and filter -->
+            <div class="mx-5 relative top-16 md:top-24 border-2 flex flex-row w-auto
+                bg-white px-4 rounded-8 hover:border-2 hover:border-[#C60000]
+                hover:bg-[#c600000a]">
+                <img src="../../src/images/icons/search.svg" />
+                <input
+                    placeholder="جستجو در دسته ها"
+                    type="search"ّ
+                    class="outline-none
+                    outline-transparent h-12
+                    mt-1 px-3
+                    bg-transparent
+                    py-2
+                    placeholder-[#BDBDBD] place block w-full
+                    rounded-md sm:text-sm font-bold"
+                    />
+                <img src="../../src/images/icons/tree-dot.svg" />
+            </div>
+
+            <div class="flex flex-col gap-3 relative top-20 md:top-28 pb-32 px-5">
+                <div class="flex flex-row relative shadow-c-1 border-2 border-[#C60000]
+                    bg-white justify-between items-center px-5 py-2 rounded-8">
+                    <div class="flex flex-row items-center justify-center">
+                        <p class="font-semibold text-[16px]">فروش مسکونی</p>
+                    </div>
+
+                    <img class="relative left-[-10px]" src="../../src/images/icons/small-arrow-left.svg" />
+                </div>
+
+                <div class="flex flex-row relative shadow-c-1
+                    bg-white justify-between items-center px-5 py-2 rounded-8">
+                    <div class="flex flex-row items-center justify-center">
+                        <p class="font-semibold text-[16px]">اجاره مسکونی</p>
+                    </div>
+                    <img class="relative left-[-10px]" src="../../src/images/icons/small-arrow-left.svg" />
+                </div>
+
+                <div class="flex flex-row relative shadow-c-1
+                    bg-white justify-between items-center px-5 py-2 rounded-8">
+                    <div class="flex flex-row items-center justify-center">
+                        <p class="font-semibold text-[16px]">فروش اداری و تجاری</p>
+                    </div>
+                    <img class="relative left-[-10px]" src="../../src/images/icons/small-arrow-left.svg" />
+                </div>
+
+                <div class="flex flex-row relative shadow-c-1
+                    bg-white justify-between items-center px-5 py-2 rounded-8">
+                    <div class="flex flex-row items-center justify-center">
+                        <p class="font-semibold text-[16px]">اجاره  اداری و نجاری</p>
+                    </div>
+
+                    <img class="relative left-[-10px]" src="../../src/images/icons/small-arrow-left.svg" />
+                </div>
+
+                <div class="flex flex-row relative shadow-c-1
+                    bg-white justify-between items-center px-5 py-2 rounded-8">
+                    <div class="flex flex-row items-center justify-center">
+                        <p class="font-semibold text-[16px]">اجاره کوتاه مدت</p>
+                    </div>
+                    <img class="relative left-[-10px]" src="../../src/images/icons/small-arrow-left.svg" />
+                </div>
+            </div>
+
+            <div class="bg-white fixed flex flex-row justify-center
+                items-center gap-5 bottom-0 right-0 py-5 px-3 border-t-2
+                border-[#EDEDED] w-full">
+                <button class="bg-[#c6000021] w-full text-[#C60000] text-center
+                    px-16
+                    rounded-8 py-4 font-bold">
+                    انصراف
+                </button>
+            </div>
+        </div>
+    </body>
+
+</html>
